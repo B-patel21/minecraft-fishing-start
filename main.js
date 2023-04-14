@@ -4,5 +4,16 @@
 document.getElementById("fish-btn").addEventListener("click", fishBtnClicked);
 
 function fishBtnClicked() {
-  console.log("Fish");
+  //Steve Fish Simulator
+  let randNum = Math.random();
+  console.log(randNum);
+  if (randNum < 0.7) {
+    console.log("Cod");
+  } else if (randNum < 0.9) {
+    console.log("Salmon");
+  } else if (randNum < 0.95) {
+    console.log("Tropical");
+  } else {
+    console.log("Puffer");
+  }
 }
