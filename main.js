@@ -8,7 +8,7 @@ function fishBtnClicked() {
   let randNum = Math.random();
   console.log(randNum);
   if (randNum < 0.7) {
-    console.log("Cod");
+    document.getElementById;
   } else if (randNum < 0.9) {
     console.log("Salmon");
   } else if (randNum < 0.95) {
